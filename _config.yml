@@ -1,0 +1,25 @@
+title: Y.WANG
+logo: /assets/img/logo3.png
+description: Memoirs about me, the music and the night. Memoirs about think-ism and practice-ism.
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+
+github_username:  treywangcqu
+twitter_username: treywangcqu
+author: Y.WANG
+email: treywangcqu@gmail.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+markdown:         kramdown
+highlighter:      rouge
+
+
+
+paginate: 7
+paginate_path: "/blog/page:num/"

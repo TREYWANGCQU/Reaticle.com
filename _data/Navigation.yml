@@ -1,0 +1,12 @@
+nav_home:
+- title: <i class="fas fa-house-user"></i>&nbsp;Home
+  url: /index
+
+- title: <i class="fas fa-blog"></i>&nbsp;Blog
+  url: /blog/
+
+- title: <i class="fas fa-tags"></i>&nbsp;Tags
+  url: /tags/
+  
+- title: <i class="fas fa-info-circle"></i>&nbsp;About
+  url: /about/

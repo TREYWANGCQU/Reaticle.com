@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% if page.lang %}
+<div class="post" lang="{{page.lang}}">
+{% else %}
+<div class="post">
+{% endif %}
+
+<h1>{{ page.title }}</h1>
+<div class="meta-text"><i class="fas fa-calendar-day"></i>&nbsp;Date:&nbsp;{{ page.date | date: "%A, %-d-%m-%Y" }}&nbsp;&nbsp;&nbsp;<i class="fas fa-pen"></i>&nbsp;Author:&nbsp;  {{ page.author | default: site.author }} </div>
+<div class="post-tags"><i class="fas fa-thumbtack"></i>&nbsp;tags:
+  {% for tag in page.tags %}
+    <a href="/tag/{{ tag }}"> {{ tag }}</a>
+  {% endfor %}</div>
+
+  <div class="post-content">
+    <hr>
+    {{ content }}
+  </div>
+  
+
+
+
+
+  
+</div>
