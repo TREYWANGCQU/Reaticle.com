@@ -1,14 +1,12 @@
-title: Y.WANG
-logo: /assets/img/logo3.png
-description: Memoirs about me, the music and the night. Memoirs about think-ism and practice-ism.
+
+description: An open-source DEM simulation system named REATICLE for granular materials
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+iconfont_url: https://at.alicdn.com/t/font_2714580_eqcgguazg7q.css
 
-github_username:  treywangcqu
-twitter_username: treywangcqu
 author: Y.WANG
-email: treywangcqu@gmail.com
+email: y.wang@reaticle.com
 
 plugins:
   - jekyll-feed
