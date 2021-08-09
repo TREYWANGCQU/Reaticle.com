@@ -157,15 +157,19 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 .head-logo{
-  font-size:100px;
-  line-height:200px;
-  margin-bottom: 30px;
+  font-size: 100px;;
+  line-height:120px;
+  margin-bottom: 10px;
   font-family: "Hack";
+}
+.head-logo h1{
+  display: inline;
+  color: #c9d4d4;
 }
 
 
 section {
-  width:1200px;
+  
   padding:20px;
   margin-left: auto;
   margin-bottom:50px;
